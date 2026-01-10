@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-sizing:border-box এটা দিলে আমরা যখন width সেট করব তখন সেটা total width হবে মানে padding + content = width */
+  /* আর box-sizing: content-box দিলে width বলতে সুধু কন্টেন্ট width কে বুঝাবে  */
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header {
+  background-color: rgba(255, 233, 217, 1);
+  padding-top: 50px;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.color-orange {
+  color: rgba(253, 110, 10, 1);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 51px;
+  align-items: center;
+}
+
+nav ul a {
+  font-size: 20px;
+  color: rgba(71, 71, 71, 1);
+  text-decoration: none;
+}
+
+/* shared style */
+.btn {
+  background-color: rgba(253, 110, 10, 1);
+  border: none;
+  padding: 18px 36px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
