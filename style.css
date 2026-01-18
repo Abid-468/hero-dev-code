@@ -14,7 +14,9 @@ header {
   background-color: rgba(255, 233, 217, 1);
   padding-top: 50px;
   background-image: url(images/developer.png), url(images/header_bg.png);
-  background-position: top left, right bottom;
+  background-position:
+    top left,
+    right bottom;
   background-repeat: no-repeat;
   padding-top: 50px;
 }
@@ -230,4 +232,54 @@ nav ul a {
 }
 hr {
   margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  margin-top: 113px;
+  background-color: rgba(255, 248, 243, 1);
+  padding: 130px 0px;
+}
+
+.footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.footer-container .social {
+  max-width: 512px;
+}
+
+.footer-container h2 {
+  color: rgba(24, 24, 24, 1);
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.footer-container p {
+  color: rgba(71, 71, 71, 1);
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.footer-container img {
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+input[type="email"],
+textarea {
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: rgba(117, 117, 117, 1);
 }
